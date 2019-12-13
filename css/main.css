@@ -25,3 +25,15 @@ section {
   background-color: #e5c30a;
   padding: .5rem;
 }
+
+.wrapper {
+  margin: 0 auto;
+  max-width: 45em;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+section h2 {
+  font-weight: bold;
+  margin: 0;
+}
