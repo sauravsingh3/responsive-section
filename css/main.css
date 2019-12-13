@@ -43,19 +43,19 @@ section p {
 }
 
 .img-flex {
-  width: 100%
+  width: 100%;
   display: block;
 }
 
 .section section {
   display: flex;
   flex-wrap: wrap;
-  padding: 0 1 rem;
+  padding: 0 1rem;
   margin: 0;
 }
 
 .section-letter {
-  width: 50%
+  width: 50%;
   padding: .6rem .15rem .4rem .9rem;
 }
 
@@ -72,7 +72,7 @@ section p {
 @media only screen and (min-width: 25em) {
 
   html {
-    font-size: 110%
+    font-size: 110%;
     line-height: 1.4;
   }
 
@@ -119,13 +119,13 @@ section p {
   }
 
   .section-letter {
-    width: 33.33%
+    width: 33.33%;
     padding: .5rem .7rem .4rem 1.5rem;
   }
 
   section-icon {
-    width: 33.33%
-    padding: .5rem .1.5rem .4rem .7rem;
+    width: 33.33%;
+    padding: .5rem 1.5rem .4rem .7rem;
   }
 
   .section-body {
