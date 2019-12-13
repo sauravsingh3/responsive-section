@@ -90,11 +90,12 @@ section p {
     padding: 0 1rem .5rem;
     font-size: .85rem;
   }
+
 }
 
 @media only screen and (min-width: 38em) {
 
-  html{
+  html {
     font-size: 110%;
     line-height: 1.4;
   }
@@ -109,6 +110,7 @@ section p {
   .section-icon {
     order: 3;
   }
+
 }
 
 @media only screen and (min-width: 60em) {
@@ -138,7 +140,7 @@ section p {
 @media only screen and (min-width: 90em) {
 
   html {
-    font-size: 130;
+    font-size: 130%;
   }
 
 }
