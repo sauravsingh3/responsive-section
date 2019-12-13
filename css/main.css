@@ -92,7 +92,7 @@ section p {
   }
 }
 
-@media screen and (min-width: 38em) {
+@media only screen and (min-width: 38em) {
 
   html{
     font-size: 110%;
@@ -111,7 +111,7 @@ section p {
   }
 }
 
-@media screen and (min-width: 60em) {
+@media only screen and (min-width: 60em) {
 
   html {
     font-size: 120%;
@@ -127,4 +127,17 @@ section p {
     width: 33.33%
     padding: .5rem .1.5rem .4rem .7rem;
   }
+
+  .section-body {
+    padding: 0 1rem .5rem;
+    font-size: .85rem;
+  }
+}
+
+@media only screen and (min-width: 90em) {
+
+  html {
+    font-size: 130;
+  }
+
 }
