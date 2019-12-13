@@ -110,3 +110,21 @@ section p {
     order: 3;
   }
 }
+
+@media screen and (min-width: 60em) {
+
+  html {
+    font-size: 120%;
+    line-height: 1.5;
+  }
+
+  .section-letter {
+    width: 33.33%
+    padding: .5rem .7rem .4rem 1.5rem;
+  }
+
+  section-icon {
+    width: 33.33%
+    padding: .5rem .1.5rem .4rem .7rem;
+  }
+}
